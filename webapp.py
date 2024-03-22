@@ -79,7 +79,7 @@ if uploadedJD and uploadedResume and click:
         st.write("Error processing Resume PDF.")
 
     match = getResult(job_description, resume)
-    st.markdown(f"<p class='caption'>Match Percentage: {match}%</p>", unsafe_allow_html=True)
+    st.markdown(f"<h1 class='caption'>Match Percentage: {match}%</h1>", unsafe_allow_html=True)
 
 # Footer
 st.markdown("<p class='caption'> ~ made by Ishwari, Priyal, Pallavi, Saloni</p>", unsafe_allow_html=True)
