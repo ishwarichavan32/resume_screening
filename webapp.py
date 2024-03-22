@@ -17,6 +17,7 @@ st.markdown(
         font-size: 24px;
         color: #4682B4;
         margin-top: 20px;
+        text-align:center;
     }
     .caption {
         font-size: 14px;
