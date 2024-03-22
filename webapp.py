@@ -22,7 +22,7 @@ st.markdown(
     .caption {
         color: black;
         margin-top: 30px;
-        text-align: center;
+        text-align: justify;
     }
     .button {
         background-color: #1E90FF;
