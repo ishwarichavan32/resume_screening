@@ -49,8 +49,8 @@ def getResult(JD_txt, resume_txt):
     return round(match, 2)
 
 # Page layout
-st.markdown("<h1 class='title'>Candidate Selection Tool</h1>", unsafe_allow_html=True)
-st.markdown("<h2 class='subheader'>NLP Based Resume Screening</h2>", unsafe_allow_html=True)
+st.markdown("<h1 class='title'>RESUME SCREENING</h1>", unsafe_allow_html=True)
+st.markdown("<h2 class='subheader'>ML Based Resume Screening</h2>", unsafe_allow_html=True)
 st.markdown(
     "<p class='caption'>Aim of this project is to check whether a candidate is qualified for a role based his or her education, experience, and other information captured on their resume. In a nutshell, it's a form of pattern matching between a job's requirements and the qualifications of a candidate based on their resume.</p>",
     unsafe_allow_html=True
