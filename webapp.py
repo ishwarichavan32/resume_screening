@@ -20,9 +20,8 @@ st.markdown(
         text-align:center;
     }
     .caption {
-        font-size: 14px;
-        color: #808080;
-        margin-top: 10px;
+        color: black;
+        margin-top: 30px;
         text-align: center;
     }
     .button {
