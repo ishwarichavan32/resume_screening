@@ -59,7 +59,7 @@ st.markdown(
 # File uploaders and process button
 uploadedJD = st.file_uploader("Upload Job Description (PDF)", type="pdf")
 uploadedResume = st.file_uploader("Upload Resume (PDF)", type="pdf")
-click = st.button("Process",class='button')
+click = st.button("Process", class_='button')
 
 # Process uploaded files
 if uploadedJD and uploadedResume and click:
