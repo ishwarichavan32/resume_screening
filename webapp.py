@@ -8,9 +8,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 st.markdown(
     """
     <style>
-    body {
-        background-color: #f0f0f0;
-    }
     .title {
         font-size: 36px;
         color: #1E90FF;
